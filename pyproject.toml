@@ -1,0 +1,24 @@
+[project]
+name = "dfir-triage-toolkit"
+version = "0.1.0"
+description = "A safe, local-first evidence triage CLI for incident responders."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Tugce Erturk"}]
+dependencies = []
+
+[project.optional-dependencies]
+processes = ["psutil>=5.9"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+dfir-triage = "dfir_triage.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
