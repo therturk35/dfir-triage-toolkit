@@ -2,7 +2,7 @@
 
 A small, local-first command-line tool for collecting explainable, read-only triage evidence during an incident response investigation.
 
-Built as a cybersecurity portfolio project by [Tugce Erturk](https://github.com/ThErturk), with an emphasis on defensible collection, evidence integrity, and clear reporting.
+Built as a cybersecurity portfolio project by [Tugce Erturk](https://github.com/therturk35), with an emphasis on defensible collection, evidence integrity, and clear reporting.
 
 ## What it does
 
@@ -18,7 +18,7 @@ The toolkit is intentionally read-only: it does not quarantine, delete, upload, 
 ## Quick start
 
 ```bash
-git clone https://github.com/ThErturk/dfir-triage-toolkit.git
+git clone https://github.com/therturk35/dfir-triage-toolkit.git
 cd dfir-triage-toolkit
 python3 -m venv .venv
 source .venv/bin/activate
