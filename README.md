@@ -51,6 +51,10 @@ pip install -e ".[dev]"
 pytest
 ```
 
+## Incident-response case study
+
+See [Disguised Invoice Attachment](examples/incident_case.md) for a fictional training case that shows how to collect, interpret, and escalate a suspicious attachment without modifying evidence.
+
 ## Responsible use
 
 Use only on systems and evidence you are authorized to inspect. Treat outputs as triage indicators, not as a conclusive malware verdict.
